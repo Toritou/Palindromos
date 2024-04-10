@@ -1,3 +1,5 @@
+Integrante: Luis Toro Chávez
+
 1.1 Discutir y concluir:
 -   Puntos discutidos con el profesor en clases.
 
