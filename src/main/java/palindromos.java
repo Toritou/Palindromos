@@ -15,5 +15,17 @@ public class palindromos {
             System.out.println("La entrada no era un palindromo");
         }
     }
-
+    /* funcion para verificar si es palindromo */
+    public static boolean esPalindromos(String str){
+        /* se inicializan los indices */
+        int largo = str.length();
+        /* se recorre la palabra */
+        for (int palabra = 0; palabra < largo/2; palabra++){
+            /* se verifica si los caracteres son iguales */
+            if (str.charAt(palabra) != str.charAt(largo - palabra - 1)){
+                return false;
+            }
+        }
+        return true;
+    }
 }
