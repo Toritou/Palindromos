@@ -8,5 +8,12 @@ public class palindromos {
         /* se lee la entrada de texto */
         String palabra = sc.nextLine();
 
+        /* funcion que verifica si es palindromo */
+        if (esPalindromos(palabra)){
+            System.out.println("La entrada si era un palindromo");
+        } else {
+            System.out.println("La entrada no era un palindromo");
+        }
     }
+
 }
