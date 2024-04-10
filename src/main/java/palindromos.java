@@ -7,6 +7,8 @@ public class palindromos {
         System.out.println(" Ingrese la palabra a comprobar: ");
         /* se lee la entrada de texto */
         String palabra = sc.nextLine();
+        /* se convierte la entrada en minusculas*/
+        palabra = palabra.toLowerCase();
 
         /* funcion que verifica si es palindromo */
         if (esPalindromos(palabra)){
